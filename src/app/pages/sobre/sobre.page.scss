@@ -1,0 +1,100 @@
+ion-content {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+ion-title {
+  color: #f8d800;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  font-family: 'Roboto', sans-serif;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+ion-header {
+  background-color: #1e1e1e;
+  color: #f8d800;
+  box-shadow: none;
+  padding: 10px;
+}
+  #container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #container strong {
+    font-size: 2rem;
+    color: #f8d800;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+
+  #container a {
+    color: #f8d800;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  #container a:hover {
+    color: #ffd700;
+  }
+
+  ion-button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+
+  ion-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  ion-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  ion-button#essenceButton,
+  ion-button#h5Button,
+  ion-button#interludeButton {
+    background-color: #f8d800;
+    color: #121212;
+    width: 100%;
+  }
+
+  ion-button ion-icon {
+    margin-right: 8px;
+  }
+
+  ion-button[fill="outline"] {
+    background-color: transparent;
+    color: #f8d800;
+    border: 2px solid #f8d800;
+  }
+
+  ion-button[fill="outline"]:hover {
+    background-color: #f8d800;
+    color: #121212;
+  }
+
+  ion-button[fill="outline"]:active {
+    background-color: #ffd700;
+    color: #121212;
+  }

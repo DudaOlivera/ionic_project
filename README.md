@@ -1,4 +1,4 @@
-# 🐾 Pet Shop App com Ionic
+# 🐾 Hotel App com Ionic
 
 Bem-vindo ao projeto do **Pet Shop App**! Este aplicativo foi desenvolvido utilizando **Ionic**, uma plataforma poderosa para criação de aplicativos móveis. O projeto inclui a estrutura básica necessária para iniciar um app de pet shop.
 
